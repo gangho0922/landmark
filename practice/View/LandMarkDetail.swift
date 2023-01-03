@@ -24,7 +24,6 @@ struct LandMarkDetail: View {
                 HStack {
                     Text(landmark.park)
                     Spacer()
-                    Text(landmark.state)
                 }
                 .font(.subheadline)
                 .foregroundColor(.gray)
